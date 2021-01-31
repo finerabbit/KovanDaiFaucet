@@ -1,5 +1,5 @@
-const DaiFaucet = artifacts.require("KovanDaiFaucet");
+const KovanDaiFaucet = artifacts.require("./KovanDaiFaucet.sol");
 
 module.exports = function (deployer) {
-  deployer.deploy(DaiFaucet);
+  deployer.deploy(KovanDaiFaucet);
 };
